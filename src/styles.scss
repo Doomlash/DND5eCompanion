@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+.wholePage {
+  background-image: url("assets/images/WoodenTexture2.jpg");
+  background-color: #442a14;
+  background-size: 500px;
+  background-attachment: fixed;
+  background-repeat: repeat;
+}
+
+:root {
+  --book-resolution-x: 1560px;
+  --book-resolution-y: 900px;
+}
+
+
+/* Importing Bootstrap SCSS file. */
+@import '../node_modules/bootstrap/scss/bootstrap.scss';

@@ -1,0 +1,11 @@
+.bookContainer {
+  background-image: url("../assets/images/BasicBook.png");
+  background-repeat: no-repeat;
+  background-size: var(--book-resolution-x) var(--book-resolution-y);
+  background-position-x: center;
+  width: var(--book-resolution-x);
+  height: var(--book-resolution-y);
+
+}
+
+

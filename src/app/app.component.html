@@ -1,10 +1,10 @@
 <div class="container-flex">
-  <div class="row">
-    <div class="col"></div>
     <div class="bookContainer">
-      <router-outlet class=""></router-outlet>
+      <router-outlet></router-outlet>
+      <button class="firstButton bookButton" [routerLink]="'character'"></button>
+      <button class="secondButton bookButton" [routerLink]="'inventory'"></button>
+      <button class="thirdButton bookButton" [routerLink]="'dice-roller'"></button>
+      <button class="fourthButton bookButton" [routerLink]="'spellbook'"></button>
+      <button class="fifthButton bookButton" [routerLink]="'glossary'"></button>
     </div>
-    <div class="col"></div>
-  </div>
-
 </div>

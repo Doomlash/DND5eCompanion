@@ -1,15 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 .wholePage {
-  background-image: url("assets/images/WoodenTexture2.jpg");
+  background-image: url("assets/images/wooden-texture-repeating.jpg");
   background-color: #442a14;
-  background-size: 500px;
+  background-size: 600px;
   background-attachment: fixed;
   background-repeat: repeat;
 }
 
 :root {
-  --book-resolution-x: 1560px;
-  --book-resolution-y: 900px;
+  --book-margin-x: 160px;
+  --book-resolution-x: 1500px;
+  --book-resolution-y: 939px;
+  --table-texture-url: ""
 }
 
 

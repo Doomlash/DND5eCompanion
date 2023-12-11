@@ -1,5 +1,28 @@
 <div class="container firstPage">
-  <p>character-page works!</p>
+  <app-stat-block
+    [name]="constants.strName"
+    [value]="values.str"
+  ></app-stat-block>
+  <app-stat-block
+    [name]="constants.dexName"
+    [value]="values.dex"
+  ></app-stat-block>
+  <app-stat-block
+    [name]="constants.conName"
+    [value]="values.con"
+  ></app-stat-block>
+  <app-stat-block
+    [name]="constants.intName"
+    [value]="values.int"
+  ></app-stat-block>
+  <app-stat-block
+    [name]="constants.wisName"
+    [value]="values.wis"
+  ></app-stat-block>
+  <app-stat-block
+    [name]="constants.chaName"
+    [value]="values.cha"
+  ></app-stat-block>
 </div>
 <div class="container secondPage">
   <p>second page</p>

@@ -8,6 +8,7 @@ import { GlossaryPageComponent } from './features/glossary-page/glossary-page.co
 import { CharacterPageComponent } from './features/character-page/character-page.component';
 import { InventoryPageComponent } from './features/inventory-page/inventory-page.component';
 import { DiceRollerPageComponent } from './features/dice-roller-page/dice-roller-page.component';
+import { StatBlockComponent } from './components/stat-block/stat-block.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
@@ -17,7 +18,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     GlossaryPageComponent,
     CharacterPageComponent,
     InventoryPageComponent,
-    DiceRollerPageComponent
+    DiceRollerPageComponent,
+    StatBlockComponent
   ],
   imports: [
     BrowserModule,

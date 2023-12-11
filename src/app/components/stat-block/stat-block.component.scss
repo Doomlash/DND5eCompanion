@@ -1,0 +1,37 @@
+.stat-block {
+  display: flexbox;
+  background-image: url("../../../assets/images/stat-border.png");
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+  height: 100%;
+  margin: 0px;
+}
+
+:host{
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+.name{
+  position: relative;
+  left:5px;
+  text-align: center;
+  width: 88px;
+  top: 5px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+.modifier{
+  position: relative;
+}
+
+.value{
+  position: relative;
+  left:25px;
+  bottom:10px;
+  text-align: center;
+  width: 47px;
+}
+

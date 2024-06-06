@@ -2,36 +2,42 @@
   display: flexbox;
   background-image: url("../../../assets/images/stat-border.png");
   background-repeat: no-repeat;
-  background-size: 100px 100px;
+  background-size: 115px 112px;
   height: 100%;
   margin: 0px;
 }
 
 :host{
   display: block;
-  width: 100px;
-  height: 100px;
+  width: 115px;
+  height: 115px;
 }
 
 .name{
   position: relative;
-  left:5px;
   text-align: center;
   width: 88px;
-  top: 5px;
+  left: 12px;
+  top: 10px;
   margin-bottom: 0px;
   text-transform: uppercase;
+  font-size: 10px;
 }
 
 .modifier{
   position: relative;
+  right:5px;
+  top:5px;
+  text-align: center;
+  font-size: 40px;
 }
 
 .value{
   position: relative;
-  left:25px;
-  bottom:10px;
+  left:32px;
+  bottom:15px;
   text-align: center;
   width: 47px;
+  font-size: 20px;
 }
 

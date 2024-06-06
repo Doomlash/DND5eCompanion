@@ -1,3 +1,6 @@
+/* Importing Bootstrap SCSS file. */
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
 /* You can add global styles to this file, and also import other style files */
 .wholePage {
   background-image: url("assets/images/wooden-texture-repeating.jpg");
@@ -14,6 +17,13 @@
   --table-texture-url: ""
 }
 
+@font-face {
+  font-family: 'FantasyFont'; /*a name to be used later*/
+  src: url('/assets/fonts/Foglihten-068.otf'); /*URL to font*/
+}
 
-/* Importing Bootstrap SCSS file. */
-@import '../node_modules/bootstrap/scss/bootstrap.scss';
+p {
+  font-family: 'FantasyFont';
+}
+
+

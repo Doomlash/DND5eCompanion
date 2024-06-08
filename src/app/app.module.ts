@@ -9,22 +9,26 @@ import { CharacterPageComponent } from './features/character-page/character-page
 import { InventoryPageComponent } from './features/inventory-page/inventory-page.component';
 import { DiceRollerPageComponent } from './features/dice-roller-page/dice-roller-page.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { RollModalComponent } from "./shared/components/roll-modal/roll-modal.component";
+import { StatBlockComponent } from './shared/components/stat-block/stat-block.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    SpellbookPageComponent,
-    GlossaryPageComponent,
-    CharacterPageComponent,
-    InventoryPageComponent,
-    DiceRollerPageComponent,
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NgbModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        SpellbookPageComponent,
+        GlossaryPageComponent,
+        CharacterPageComponent,
+        InventoryPageComponent,
+        DiceRollerPageComponent,
+    ],
+    providers: [],
+    bootstrap: [AppComponent],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        NgbModule,
+        RollModalComponent,
+        StatBlockComponent
+    ]
 })
 export class AppModule { }

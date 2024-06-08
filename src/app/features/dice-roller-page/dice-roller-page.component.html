@@ -1,6 +1,10 @@
 
 <div class="container firstPage">
-  <p>dice-roller-page works!</p>
+  <ng-template>
+    <app-roll-modal>
+    </app-roll-modal>
+  </ng-template>
+  <button class="btn btn-lg btn-outline-primary" (click)="open()">Launch demo modal</button>
 </div>
 <div class="container secondPage">
   <p>second page</p>

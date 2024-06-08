@@ -1,6 +1,3 @@
-/* Importing Bootstrap SCSS file. */
-@import '../node_modules/bootstrap/scss/bootstrap.scss';
-
 /* You can add global styles to this file, and also import other style files */
 .wholePage {
   background-image: url("assets/images/wooden-texture-repeating.jpg");
@@ -26,4 +23,5 @@ p {
   font-family: 'FantasyFont';
 }
 
-
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
